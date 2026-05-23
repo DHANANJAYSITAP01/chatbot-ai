@@ -146,7 +146,7 @@ div.stButton > button {
     line-height: 1.6 !important;
 }
 
-/* Streamlit चे मूळ इनपुट बंद */
+
 div[data-testid="stChatInput"] {
     display: none !important;
 }
@@ -256,7 +256,7 @@ div[data-testid="stChatInput"] {
     cursor: pointer;
 }
 
-/* --- इनपुट बॉक्स ओव्हरलॅपिंग --- */
+
 .element-container:has(input[type="text"]) {
     position: fixed !important;
     bottom: 51px !important;
