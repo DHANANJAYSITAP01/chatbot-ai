@@ -4,7 +4,7 @@ import uuid
 
 # ---------------- API SETUP ----------------
 client = Groq(
-    api_key="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"  
+    api_key=st.secrets["GROQ_API_KEY"]
 )
 
 # ---------------- PAGE CONFIG ----------------
